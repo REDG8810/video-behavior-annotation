@@ -1,0 +1,10 @@
+# Experimental media and generated local artifacts are not repository content.
+data/
+.DS_Store
+
+# App dependencies and build outputs.
+app/node_modules/
+app/out/
+app/release/
+app/dist/
+app/*.tsbuildinfo
